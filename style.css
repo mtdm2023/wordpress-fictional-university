@@ -1,0 +1,216 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+     border-color: transparent !important;
+     color: brown ;
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    margin: 0 !important;
+    
+}
+.parent {
+    position: relative;
+}
+.children{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%) ;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.children ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        list-style: none;
+    text-decoration: none   ;
+}
+.children ul li{
+    width: 20%;
+    height: 50px;
+    background-color: azure;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+  list-style: none;
+  text-decoration: none;
+  
+}
+nav ul li {
+    display: inline-block;
+
+    margin-left: 50px;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    margin: auto;
+    background-color: black;
+}
+header
+{
+    background-color: black;
+}
+.footer ul{
+   display: flex;
+   width: 75%;
+   margin: auto;
+   list-style: none;
+   text-decoration: none;
+   
+
+}
+.footer ul li  {
+  
+  margin-left: 50px;
+  text-wrap: nowrap;
+}
+
+.footer ul li a{
+    text-decoration: none;
+}
+
+._button{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+/* this css for loading spinner */
+
+
+.lds-dual-ring,
+.lds-dual-ring:after {
+  box-sizing: border-box;
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6.4px solid currentColor;
+  border-color: currentColor transparent currentColor transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+input:focus {
+    outline: none;
+    border: none;
+}
+
+input::placeholder {
+    color:  chocolate   ;
+    font-size: xx-large;
+    font-weight: bold   ;
+    font-style: italic;
+}
+.overlay_search{
+    display: none;
+}
+.spinner{
+    display: none;
+}
+.edite_button{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.delete_button{
+    width: 100px;
+    height: 50px;
+    background-color: darkgoldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: medium;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.delete_button:hover
+{
+    background-color:white;
+    color: red;
+}
+.edite_button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.hide{
+    display: none !important;
+}
+.Create_btn
+{
+    width: 100px;
+    height: 50px;
+    background-color: darkorange;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: medium;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.Create_btn:hover{
+    background-color: black;
+    color: white;
+}
+ .activee{
+    display: none !important    ;
+ }
